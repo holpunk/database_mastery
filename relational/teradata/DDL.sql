@@ -21,3 +21,4 @@ CREATE VIEW user_by_email AS
 SELECT * FROM users WHERE email = ?;
 
 -- description
+
