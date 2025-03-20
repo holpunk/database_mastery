@@ -1,0 +1,85 @@
+What is stored procedure in SQL?
+    1. Stored procedure is a set of SQL statements with an assigned name, which are stored in RDBMS, and can be called from the software application.
+    It is used to encapsulate a set of operations or queries to execute on database. Stored procedure accepts input parameters and returns output
+    parameters if any. It helps in reducing the network traffic and increases the performance of the application.
+
+Why Stored procedure?
+    1. Reduces the network traffic: Stored procedure helps in reducing the network traffic between client and server because instead of sending multiple
+        SQL statements, we can send the name of the stored procedure and its parameters.
+    2. Reusability: Stored procedure can be used multiple times by multiple clients. It helps in reusing the same code again and again.
+    3. Security: It provides better security to the data. We can grant permission to the user for executing the stored procedure without giving permission
+        on the tables of the database.
+    4. Performance: Stored procedure helps in increasing the performance of the application because it is precompiled and stored in the database.
+
+How?
+    1. Create Stored Procedure: To create a stored procedure, we use the CREATE PROCEDURE statement.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            AS
+            BEGIN
+                SQL statements
+            END
+    2. Execute Stored Procedure: To execute a stored procedure, we use the EXECUTE or EXEC keyword.
+        Syntax:
+            EXECUTE procedure_name
+            OR
+            EXEC procedure_name
+    3. Drop Stored Procedure: To drop a stored procedure, we use the DROP PROCEDURE statement.
+        Syntax:
+            DROP PROCEDURE procedure_name
+    4. Alter Stored Procedure: To alter a stored procedure, we use the ALTER PROCEDURE statement.
+        Syntax:
+            ALTER PROCEDURE procedure_name
+            AS
+            BEGIN
+                SQL statements
+            END
+    5. Stored Procedure with Parameters: We can pass parameters to the stored procedure.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            @parameter1 datatype,
+            @parameter2 datatype
+            AS
+            BEGIN
+                SQL statements
+            END
+    6. Stored Procedure with Output Parameters: We can return output parameters from the stored procedure.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            @parameter1 datatype,
+            @parameter2 datatype OUTPUT
+            AS
+            BEGIN
+                SQL statements
+            END
+    7. Stored Procedure with Default Parameters: We can set default values to the parameters of the stored procedure.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            @parameter1 datatype = value,
+            @parameter2 datatype = value
+            AS
+            BEGIN
+                SQL statements
+            END
+    8. Stored Procedure with Return Value: We can return a value from the stored procedure.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            AS
+            BEGIN
+                SQL statements
+                RETURN value
+            END
+    9. Stored Procedure with IF ELSE: We can use IF ELSE statement in the stored procedure.
+        Syntax:
+            CREATE PROCEDURE procedure_name
+            AS
+            BEGIN
+                IF condition
+                BEGIN
+                    SQL statements
+                END
+                ELSE
+                BEGIN
+                    SQL statements
+                END
+            END
