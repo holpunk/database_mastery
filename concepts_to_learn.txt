@@ -1,0 +1,30 @@
+Window Functions
+    Perform calculations across rows (e.g., ROW_NUMBER(), RANK(), LEAD(), LAG(), SUM() OVER()).
+CTEs
+    Use WITH clauses for temporary result sets, including recursive CTEs.
+Pivot/Unpivot
+    Transform rows to columns and vice versa.
+Subqueries
+    Write queries within queries, including correlated subqueries.
+Set Operations
+    Combine results using UNION, INTERSECT, EXCEPT.
+Joins
+    Practice CROSS JOIN, SELF JOIN, multi-table joins.
+Full-Text Search
+    Use CONTAINS, FREETEXT, full-text indexes.
+Triggers
+    Automate actions in response to table events.
+UDFs
+    Create scalar and table-valued functions.
+Dynamic SQL
+    Build and execute SQL dynamically.
+Transactions
+    Use BEGIN TRANSACTION, COMMIT, ROLLBACK, TRY...CATCH.
+Indexes
+    Create/analyze indexes, optimize queries.
+Partitioning
+    Split large tables into smaller pieces.
+JSON/XML
+    Store, query, manipulate JSON/XML data.
+Materialized Views
+    Create views that store data physically.
