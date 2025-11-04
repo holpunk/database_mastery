@@ -1,0 +1,22 @@
+what is snowflake?
+    1. snowflake is a cloud based data warehousing platform that provides a data storage and analytics service.
+    2. it allows organizations to store and analyze large volumes of data in a scalable and cost-effective
+        manner.
+    3. snowflake supports a wide range of data types, including structured and semi-structured data, and provides
+        a variety of tools for data integration, transformation, and analysis.
+    4. it is designed to be highly scalable, with the ability to handle large amounts of data
+        and support multiple concurrent users.
+    5. snowflake also provides features such as automatic scaling, data sharing, and security to help
+        organizations manage their data more effectively.
+
+
+ how to install snowflake?
+    1. sign up for a snowflake account on the snowflake website.
+    2. choose a cloud provider (aws, azure, or google cloud) and a region for
+        your snowflake account.
+    3. create a snowflake user and assign the necessary roles and permissions.
+    4. download and install the snowflake command line client (snowsql) or use the
+        snowflake web interface to connect to your snowflake account.
+    5. create a database, schema, and warehouse in snowflake to start storing and analyzing data
+    6. load data into snowflake using the snowflake data loading tools or third-party
+        data integration tools.
